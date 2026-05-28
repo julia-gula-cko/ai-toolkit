@@ -12,7 +12,7 @@ Claude Code skills that auto-trigger based on what you're asking. Drop a skill f
 
 ### `ask-julia`
 
-My brain dump for the CKO Credential Lifecycle platform. Auto-triggers when your question is in scope.
+My brain dump for the CKO Credential Lifecycle platform. Only triggers when you explicitly invoke it — it won't fire on topic keywords alone.
 
 **Install:**
 
@@ -21,4 +21,4 @@ My brain dump for the CKO Credential Lifecycle platform. Auto-triggers when your
    - If the folder doesn't exist: `mkdir -p ~/.claude/skills`
 3. Restart Claude Code (or start a new session)
 
-**Use it:** ask Claude naturally — no need to say "ask julia". If it doesn't trigger automatically, prefix with `ask julia ...`.
+**Use it:** prefix your question with `ask julia ...` (or run `/ask-julia`). Without the explicit invocation, Claude will answer from its own knowledge rather than this skill.
